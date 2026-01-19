@@ -1,18 +1,50 @@
 {
-  "products": [
+  "posts": [
     {
       "id": 1,
-      "name": "Wireless Headphones",
-      "price": 120,
-      "image": "https://picsum.photos/200/300",
-      "description": "High quality wireless headphones"
+      "authorName": "Mike Chen",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "title": "The Future of Web Development",
+      "content": "Web development is evolving rapidly with new frameworks and tools emerging every day. Staying up to date is crucial for modern developers.",
+      "createdAt": "2025-10-13T18:45:00",
+      "commentsCount": 1
     },
     {
       "id": 2,
-      "name": "Smart Watch",
-      "price": 80,
-      "image": "https://picsum.photos/200/301",
-      "description": "Smart watch with health tracking"
+      "authorName": "Emily Davis",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "title": "Best Practices for API Design",
+      "content": "Designing RESTful APIs requires careful consideration of endpoints, HTTP methods, and response structures.",
+      "createdAt": "2025-10-14T14:20:00",
+      "commentsCount": 1
+    },
+    {
+      "id": 3,
+      "authorName": "Sarah Johnson",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/65.jpg",
+      "title": "TypeScript Tips and Tricks",
+      "content": "TypeScript adds type safety to JavaScript, helping you catch errors early and write more maintainable code.",
+      "createdAt": "2025-10-14T13:30:00",
+      "commentsCount": 0
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "Pat Wilson",
+      "email": "pat@example.com",
+      "comment": "The pace of change can be overwhelming sometimes!",
+      "createdAt": "2025-10-14T21:00:00"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "name": "Alex Morgan",
+      "email": "alex@example.com",
+      "comment": "Great article, very informative!",
+      "createdAt": "2025-10-14T22:10:00"
     }
   ]
 }
