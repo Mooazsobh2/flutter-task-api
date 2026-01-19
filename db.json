@@ -2,10 +2,10 @@
   "posts": [
     {
       "id": 1,
-      "authorName": "Mooaz Al Sobh ",
+      "authorName": "Mike Chen",
       "authorAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
-      "title": "Flutter Application Developer & Data Analyst",
-      "content": "As a Flutter developer specialized in Artificial Intelligence and Data Analysis, I build high-quality mobile applications that combine clean architecture, modern UI, and intelligent, data-driven functionalities.",
+      "title": "The Future of Web Development",
+      "content": "Web development is evolving rapidly with new frameworks and tools emerging every day. Staying up to date is crucial for modern developers.",
       "createdAt": "2025-10-13T18:45:00",
       "commentsCount": 1
     },
